@@ -1,7 +1,5 @@
-package main
+// package main
 
-import "fmt"
+// func reformat(message string, formatter func(string) string) string {
 
-func main (){
-	fmt.Println("Hi Jude");
-}
+// }
