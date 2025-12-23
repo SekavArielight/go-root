@@ -1,5 +1,5 @@
-// package main
+package main
 
-// func reformat(message string, formatter func(string) string) string {
+func reformat(message string, formatter func(string) string) string {
 
-// }
+}
