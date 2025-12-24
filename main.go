@@ -1,5 +1,9 @@
 package main
 
-func reformat(message string, formatter func(string) string) string {
+func add(x, y int) int {
+	return x + y
+}
 
+func mul(x, y int) int {
+	return x * y
 }
