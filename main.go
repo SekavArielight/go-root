@@ -1,6 +1,6 @@
 package main
 
-
+import "fmt"
 
 func add(x, y int) int {
 	return x + y
@@ -22,5 +22,5 @@ func main() {
 	product := aggregate(2, 3, 4, mul)
 	// product is 24
 
-	fmt
+	fmt.Println(sum, "product: ", product)
 }
