@@ -11,9 +11,9 @@ func mul(x, y int) int {
 }
 
 func aggregate(a, b, c int, arithmetic func(int, int) int) int {
-  firstResult := arithmetic(a, b)
-  secondResult := arithmetic(firstResult, c)
-  return secondResult
+	firstResult := arithmetic(a, b)
+	secondResult := arithmetic(firstResult, c)
+	return secondResult
 }
 
 func main() {
