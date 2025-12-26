@@ -23,4 +23,5 @@ func main() {
 	// product is 24
 
 	fmt.Println(sum, "product: ", product)
+	timed()
 }
